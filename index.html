@@ -1,52 +1,104 @@
-{
-    "products": [
-        {
-            "id": 1,
-            "title": "گوشی موبایل سامسونگ مدل Galaxy S21",
-            "price": 25999000,
-            "image": "https://dkstatics-public.digikala.com/digikala-products/4ecd2bdd8e8a39f6dc952ddaa5cf8aa15a353ee4_1654514995.jpg",
-            "category": "mobile",
-            "discount": 10
-        },
-        {
-            "id": 2,
-            "title": "لپ تاپ اپل مدل MacBook Air M1",
-            "price": 48500000,
-            "image": "https://dkstatics-public.digikala.com/digikala-products/e60265e801cf166d2bc74fab5282e5e60f43fec3_1713863147.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90.jpg",
-            "category": "laptop",
-            "discount": 5
-        },
-        {
-            "id": 3,
-            "title": "هدفون بی‌سیم سونی WH-1000XM4",
-            "price": 8900000,
-            "image": "https://dkstatics-public.digikala.com/digikala-products/4e985857b05c3c6de6e0e3ad9cb6182f6e6cc8f8_1687350276.jpg",
-            "category": "accessories",
-            "discount": 15
-        },
-        {
-            "id": 4,
-            "title": "ساعت هوشمند اپل واچ سری 7",
-            "price": 15900000,
-            "image": "https://dkstatics-public.digikala.com/digikala-products/8b992591cd7606de5eb5affe9ec8b9725c349fe6_1664309839.jpg",
-            "category": "wearable",
-            "discount": 8
-        },
-        {
-            "id": 5,
-            "title": "تبلت سامسونگ مدل Galaxy Tab S7",
-            "price": 19500000,
-            "image": "https://dkstatics-public.digikala.com/digikala-products/61f47d4064d911b6fb6d7cc60956369ecd552d47_1624952981.jpg",
-            "category": "tablet",
-            "discount": 12
-        },
-        {
-            "id": 6,
-            "title": "پاور بانک شیائومی 20000mAh",
-            "price": 980000,
-            "image": "https://dkstatics-public.digikala.com/digikala-products/114389296.jpg",
-            "category": "accessories",
-            "discount": 20
-        }
-    ]
-} 
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فروشگاه آنلاین</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- هدر سایت -->
+    <header class="main-header">
+        <div class="header-top">
+            <div class="logo">
+                <img src="https://www.digikala.com/statics/img/svg/logo.svg" alt="لوگو فروشگاه">
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="جستجو در فروشگاه...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="user-actions">
+                <a href="#" class="login-btn">ورود | ثبت‌نام</a>
+                <a href="#" class="cart-btn"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#">دسته‌بندی کالاها</a></li>
+                <li><a href="#">سوپرمارکت</a></li>
+                <li><a href="#">پرفروش‌ترین‌ها</a></li>
+                <li><a href="#">تخفیف‌ها و پیشنهادها</a></li>
+                <li><a href="#">شگفت‌انگیزها</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- بخش اصلی -->
+    <main>
+        <!-- دسته‌بندی‌های محصولات -->
+        <section class="categories">
+            <div class="category-item">
+                <img src="https://dkstatics-public.digikala.com/digikala-categories/0c46d2532d61dd3a5b6a3afc17552c23c1b4d39e_1656160976.png" alt="موبایل">
+                <span>موبایل</span>
+            </div>
+            <div class="category-item">
+                <img src="https://dkstatics-public.digikala.com/digikala-categories/8f80e75e4c2dca42ee0538e100c7a7b05455aa88_1662360265.png" alt="کالای دیجیتال">
+                <span>کالای دیجیتال</span>
+            </div>
+            <div class="category-item">
+                <img src="https://dkstatics-public.digikala.com/digikala-categories/0c3cc1cb589df1c74c4ad95a742bb6df967956a8_1656161168.png" alt="خانه و آشپزخانه">
+                <span>خانه و آشپزخانه</span>
+            </div>
+            <div class="category-item">
+                <img src="https://dkstatics-public.digikala.com/digikala-categories/5795b31a635f1e23df96a908c009f31744ede38f_1656160928.png" alt="مد و پوشاک">
+                <span>مد و پوشاک</span>
+            </div>
+            <div class="category-item">
+                <img src="https://dkstatics-public.digikala.com/digikala-categories/0cefa48f5c58adbbde8c5a76b22ee49de0e667f5_1656161101.png" alt="آرایشی بهداشتی">
+                <span>آرایشی بهداشتی</span>
+            </div>
+        </section>
+
+        <!-- اسلایدر تبلیغات -->
+        <section class="slider">
+            <div class="slider-container">
+                <img src="https://dkstatics-public.digikala.com/digikala-adservice-banners/25ba8679d6754a78d2d3010c8a2f5b5c4ddf4cc9_1702729091.jpg" alt="تبلیغات ویژه">
+            </div>
+        </section>
+
+        <!-- محصولات ویژه -->
+        <section class="special-offers">
+            <h2>پیشنهادات ویژه</h2>
+            <div class="products-grid">
+                <!-- محصولات از طریق JavaScript اضافه خواهند شد -->
+            </div>
+        </section>
+    </main>
+
+    <!-- فوتر -->
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>با ما همراه باشید</h3>
+                <ul>
+                    <li><a href="#">درباره ما</a></li>
+                    <li><a href="#">تماس با ما</a></li>
+                    <li><a href="#">فرصت‌های شغلی</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>خدمات مشتریان</h3>
+                <ul>
+                    <li><a href="#">پاسخ به پرسش‌های متداول</a></li>
+                    <li><a href="#">رویه‌های بازگرداندن کالا</a></li>
+                    <li><a href="#">شرایط استفاده</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="products.json"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
