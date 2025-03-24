@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فروشگاه آنلاین</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- هدر سایت -->
+    <header class="main-header">
+        <div class="header-top">
+            <div class="logo">
+                <img src="logo.png" alt="لوگو فروشگاه">
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="جستجو در فروشگاه...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="user-actions">
+                <a href="#" class="login-btn">ورود | ثبت‌نام</a>
+                <a href="#" class="cart-btn"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#">دسته‌بندی کالاها</a></li>
+                <li><a href="#">سوپرمارکت</a></li>
+                <li><a href="#">پرفروش‌ترین‌ها</a></li>
+                <li><a href="#">تخفیف‌ها و پیشنهادها</a></li>
+                <li><a href="#">شگفت‌انگیزها</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- بخش اصلی -->
+    <main>
+        <!-- دسته‌بندی‌های محصولات -->
+        <section class="categories">
+            <div class="category-item">
+                <img src="mobile.png" alt="موبایل">
+                <span>موبایل</span>
+            </div>
+            <div class="category-item">
+                <img src="laptop.png" alt="کالای دیجیتال">
+                <span>کالای دیجیتال</span>
+            </div>
+            <div class="category-item">
+                <img src="home.png" alt="خانه و آشپزخانه">
+                <span>خانه و آشپزخانه</span>
+            </div>
+            <div class="category-item">
+                <img src="fashion.png" alt="مد و پوشاک">
+                <span>مد و پوشاک</span>
+            </div>
+            <div class="category-item">
+                <img src="beauty.png" alt="آرایشی بهداشتی">
+                <span>آرایشی بهداشتی</span>
+            </div>
+        </section>
+
+        <!-- اسلایدر تبلیغات -->
+        <section class="slider">
+            <div class="slider-container">
+                <img src="slider1.jpg" alt="تبلیغات ویژه">
+            </div>
+        </section>
+
+        <!-- محصولات ویژه -->
+        <section class="special-offers">
+            <h2>پیشنهادات ویژه</h2>
+            <div class="products-grid">
+                <!-- محصولات از طریق JavaScript اضافه خواهند شد -->
+            </div>
+        </section>
+    </main>
+
+    <!-- فوتر -->
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>با ما همراه باشید</h3>
+                <ul>
+                    <li><a href="#">درباره ما</a></li>
+                    <li><a href="#">تماس با ما</a></li>
+                    <li><a href="#">فرصت‌های شغلی</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>خدمات مشتریان</h3>
+                <ul>
+                    <li><a href="#">پاسخ به پرسش‌های متداول</a></li>
+                    <li><a href="#">رویه‌های بازگرداندن کالا</a></li>
+                    <li><a href="#">شرایط استفاده</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="products.json"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
