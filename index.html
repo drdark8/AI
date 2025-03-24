@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بررسی پیوندهای خراب</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>بررسی پیوندهای خراب</h1>
+        <div class="input-section">
+            <input type="url" id="urlInput" placeholder="آدرس وبسایت را وارد کنید" required>
+            <button onclick="checkLinks()">بررسی پیوندها</button>
+        </div>
+        <div id="loading" class="loading hidden">
+            <div class="spinner"></div>
+            <p>در حال بررسی پیوندها...</p>
+        </div>
+        <div id="results" class="results hidden">
+            <h2>نتایج بررسی</h2>
+            <div class="stats">
+                <p>تعداد کل پیوندها: <span id="totalLinks">0</span></p>
+                <p>تعداد پیوندهای خراب: <span id="brokenLinks">0</span></p>
+            </div>
+            <div id="brokenLinksList" class="broken-links-list"></div>
+        </div>
+        <div id="error" class="error hidden"></div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html> 
