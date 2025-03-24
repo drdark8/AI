@@ -1,1 +1,137 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danitechone | فروشگاه تخصصی موبایل و لپ‌تاپ</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <h1>Danitechone</h1>
+                <span class="owner">Daniel Delgarmi</span>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="جستجوی محصول...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="nav-links">
+                <a href="#" class="active">خانه</a>
+                <a href="#">موبایل</a>
+                <a href="#">لپ‌تاپ</a>
+                <a href="#">لوازم جانبی</a>
+                <a href="#" class="cart-link">سبد خرید <i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </nav>
+    </header>
 
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>به Danitechone خوش آمدید</h2>
+                <p>ارائه دهنده بهترین محصولات دیجیتال با قیمت مناسب و کیفیت عالی</p>
+                <div class="hero-buttons">
+                    <button class="cta-button primary">مشاهده محصولات</button>
+                    <button class="cta-button secondary">تماس با ما</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-products">
+            <div class="section-header">
+                <h2>محصولات ویژه</h2>
+                <div class="section-filters">
+                    <button class="filter-btn active">همه</button>
+                    <button class="filter-btn">موبایل</button>
+                    <button class="filter-btn">لپ‌تاپ</button>
+                    <button class="filter-btn">لوازم جانبی</button>
+                </div>
+            </div>
+            <div class="product-grid" id="featured-products">
+                <!-- Products will be loaded dynamically -->
+            </div>
+        </section>
+
+        <section class="categories">
+            <h2>دسته‌بندی محصولات</h2>
+            <div class="category-grid">
+                <div class="category-card">
+                    <img src="images/mobile.jpg" alt="موبایل">
+                    <div class="category-content">
+                        <h3>موبایل</h3>
+                        <p>جدیدترین گوشی‌های هوشمند</p>
+                        <a href="#" class="category-link">مشاهده محصولات</a>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <img src="images/laptop.jpg" alt="لپ‌تاپ">
+                    <div class="category-content">
+                        <h3>لپ‌تاپ</h3>
+                        <p>لپ‌تاپ‌های قدرتمند و حرفه‌ای</p>
+                        <a href="#" class="category-link">مشاهده محصولات</a>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <img src="images/accessories.jpg" alt="لوازم جانبی">
+                    <div class="category-content">
+                        <h3>لوازم جانبی</h3>
+                        <p>لوازم جانبی با کیفیت</p>
+                        <a href="#" class="category-link">مشاهده محصولات</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <i class="fas fa-truck"></i>
+                    <h3>ارسال سریع</h3>
+                    <p>ارسال رایگان برای خرید بالای ۵ میلیون تومان</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>گارانتی معتبر</h3>
+                    <p>گارانتی ۱۸ ماهه برای تمام محصولات</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-headset"></i>
+                    <h3>پشتیبانی ۲۴/۷</h3>
+                    <p>پشتیبانی آنلاین در تمام ساعات</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>درباره Danitechone</h3>
+                <p>فروشگاه تخصصی محصولات دیجیتال با بیش از ۱۰ سال سابقه در ارائه بهترین محصولات با قیمت مناسب</p>
+            </div>
+            <div class="footer-section">
+                <h3>تماس با ما</h3>
+                <p>تلفن: 09198001958</p>
+                <p>ایمیل: danyelm1023@gmail.com</p>
+                <p>آدرس: تهران، نارمک</p>
+            </div>
+            <div class="footer-section">
+                <h3>شبکه‌های اجتماعی</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>تمامی حقوق محفوظ است &copy; ۱۴۰۳ | طراحی شده توسط Daniel Delgarmi</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
